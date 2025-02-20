@@ -7,9 +7,14 @@
         mc:Ignorable="d"
         Title="_4333_Pavlova" Height="450" Width="800">
     <Grid>
-        <StackPanel VerticalAlignment="Center">
+        
+            <StackPanel VerticalAlignment="Center">
             <TextBlock HorizontalAlignment="Center" FontSize="30">Павлова Дарья</TextBlock>
             <TextBlock HorizontalAlignment="Center" FontSize="30">19 лет</TextBlock>
+            <Button Width="150" Height="20" Content="Импорт данных из Excel" Click="Button_Click" x:Name="Import"/>
+            <Button Width="100" Height="20" Content="Экспорт в Excel" Click="Button_Click_1" x:Name="Export"/>
+            <Button Width="150" Height="20" Content="Импорт данных из JSON" Click="ImportJson_Click" x:Name="ImportJson"/>
+            <Button Width="100" Height="20" Content="Экспорт в Word" Click="ExportWord_Click" x:Name="ExportWord"/>
         </StackPanel>
     </Grid>
 </Window>
